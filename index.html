@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="uk">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Картка товару</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+
+      <body
+        class="min-h-screen bg-gray-900 flex items-center justify-center p-6"
+      >
+        <article
+          class="w-full max-w-sm bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:scale-105 active:scale-95 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 cursor-pointer"
+        >
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="./geforce-rtx-5080-og-1200x630_a38r.1920.webp"
+              alt="NVIDIA GeForce RTX 5080 Founders Edition"
+              class="w-full h-full object-cover"
+            />
+
+            <span
+              class="absolute top-4 left-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm"
+            >
+              Новинка
+            </span>
+          </div>
+
+          <div class="p-5">
+            <h3 class="text-lg font-bold text-gray-100 mb-3">
+              NVIDIA GeForce RTX 5080 Founders Edition
+            </h3>
+
+            <div class="flex items-center gap-3 mb-5">
+              <span class="text-2xl font-black text-green-300"> 59 999 ₴ </span>
+
+              <span class="text-sm text-green-50 line-through"> 69 999 ₴ </span>
+            </div>
+
+            <button
+              type="button"
+              class="w-full bg-gray-800 rounded-2xl border-2 border-green-600 p-5 hover:bg-green-600 active:scale-95 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 cursor-pointer"
+            >
+              🛒 В кошик
+            </button>
+          </div>
+        </article>
+      </body>
+    </html>
+  </body>
+</html>
